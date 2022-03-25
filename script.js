@@ -28,7 +28,8 @@ function setup() {
 function draw() {
     if (frameCount === 1){
         capturer.start();
-      } 
+    }
+    
     background(random(40,150));
     rotateZ(frameCount * 0.012);
     rotateX(frameCount * 0.01);
@@ -38,7 +39,7 @@ function draw() {
         texture(doctor[number]);
         box(displayWidth/1);
 
-        if(frameCount == counter){
+        if(frameCount === counter){
             texture(doctor[number]);
             box(displayWidth/size);
             size -= 3;
@@ -52,7 +53,7 @@ function draw() {
             number = 0;
         }
     }
-
+    
     if(frameCount < 60 * 20) { 
         capturer.capture(p5Canvas.canvas);
     }else if(frameCount === 60 * 20) { 
