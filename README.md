@@ -116,7 +116,7 @@ function draw() {
 
 Well, after we configure and open our project on the local server you will see lake equivalent to this:
 
-![gif](gif/doctor-gif3.gif)
+![gif](gif/doctor-gif.gif)
 
 ## CCapture.js
 
