@@ -111,7 +111,7 @@ function draw() {
 
 ```
 - Create a part inside the project called **"img"** where the images were stored.
-
+- Alert: The images contained within the img folder are then linked to the [Placeit](https://placeit.net) license terms.
 - Some functionality (loading external files) may show a "cross-source" error in the console. Thus, I recommend, clicking on the link how to configure a [local server on Mac OSX, Windows or Linux.](https://github.com/processing/p5.js/wiki/Local-server)
 
 Well, after we configure and open our project on the local server you will see lake equivalent to this:
