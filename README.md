@@ -220,5 +220,5 @@ function draw() {
 ```
 - The video will be saved in "webm" format with a time of 4 minutes, but you are free to edit and modify the entire project.
 
-If you have any doubts, please contact me by email pedropapoti@gmail.com.
+If you have any questions, please contact me by email pedropapoti@gmail.com.
 
